@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Проект "IT Case Test Task"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Данный проект представляет собой интернет-магазин одежды, созданный с использованием React. В магазине вы можете
+просматривать товары, выбирать цвет и размер, добавлять товары в корзину и оформлять заказ.
 
-## Available Scripts
+## Установка и запуск
 
-In the project directory, you can run:
+1. Клонируйте репозиторий на свой локальный компьютер:
+
+### `git clone git clone https://github.com/tomat1990yandex/it-case-test-task.git`
+
+2. Перейдите в директорию проекта:
+
+### `cd it-case-test-task`
+
+
+3. Установите зависимости с помощью npm:
+
+
+
+### `npm install`
+
+
+4. Запустите проект:
+
+
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Приложение будет запущено на [http://localhost:3000](http://localhost:3000).
 
-### `npm test`
+## Основные функции
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Просмотр товаров: Просматривайте доступные товары и выбирайте интересующие вас варианты.
+- Выбор цвета и размера: Выберите цвет и размер товара перед добавлением его в корзину.
+- Добавление в корзину: Добавьте товар в корзину для последующего оформления заказа.
+- Просмотр корзины: Просматривайте содержимое вашей корзины и удаляйте товары по мере необходимости.
 
-### `npm run build`
+## Зависимости
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+В проекте использованы следующие зависимости:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React: JavaScript-библиотека для создания пользовательских интерфейсов.
+- React Router: для навигации между страницами приложения.
+- Axios: для выполнения HTTP-запросов к API.
